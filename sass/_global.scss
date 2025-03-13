@@ -1,10 +1,16 @@
-// Дл ятого что бы решить этот выопрос на мн аоолд
+@use "functions" as *;
+
 body {
 	font-family: system-ui, sans-serif;
-	margin: 0;
+	font-size: rem(16);
+	margin: rem(0);
 }
 
 .container {
-	max-width: 960px;
-	margin: 0 auto;
+	max-width: rem(960);
+	margin: rem(0) auto;
+}
+
+h1 {
+	font-size: rem(28);
 }
