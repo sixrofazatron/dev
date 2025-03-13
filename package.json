@@ -9,7 +9,7 @@
   "scripts": {
     "start": "npm-run-all --parallel sass-watch browser-sync",
     "sass-watch": "sass --watch sass/main.scss:css/main.min.css",
-    "browser-sync": "browser-sync start --server --files css/*.css"
+    "browser-sync": "browser-sync start --server --files css/*.css, *.html "
   },
   "devDependencies": {
     "browser-sync": "^3.0.3",
